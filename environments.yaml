@@ -1,0 +1,14 @@
+gcc-env:
+  compiler:
+      - toolchain: gcc
+        spec: gcc@12
+  mpi:
+      spec: cray-mpich@8.1.28
+      gpu: cuda
+  unify: true
+  specs:
+  - osu-micro-benchmarks+cuda %gcc
+  variants:
+  - cuda_arch=80
+  views:
+    default:
