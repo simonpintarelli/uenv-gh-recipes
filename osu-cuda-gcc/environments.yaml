@@ -9,6 +9,6 @@ gcc-env:
   specs:
   - osu-micro-benchmarks+cuda %gcc
   variants:
-  - cuda_arch=80
+  - cuda_arch=90
   views:
     default:
