@@ -11,6 +11,8 @@ gcc-env:
   specs:
   - osu-micro-benchmarks+cuda %nvhpc
   - libxml2%gcc
+  - python%gcc
+  - cmake%gcc
   variants:
   - cuda_arch=90
   views:

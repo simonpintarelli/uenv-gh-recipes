@@ -8,6 +8,8 @@ gcc-env:
   unify: true
   specs:
   - osu-micro-benchmarks+cuda %gcc
+  - cmake
+  - python
   variants:
   - cuda_arch=90
   views:
