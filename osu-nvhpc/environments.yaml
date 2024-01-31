@@ -13,6 +13,7 @@ gcc-env:
   - libxml2%gcc
   - python%gcc
   - cmake%gcc
+  - openblas%gcc
   variants:
   - cuda_arch=90
   views:

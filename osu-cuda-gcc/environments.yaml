@@ -10,6 +10,7 @@ gcc-env:
   - osu-micro-benchmarks+cuda %gcc
   - cmake
   - python
+  - openblas%gcc
   variants:
   - cuda_arch=90
   views:
