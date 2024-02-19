@@ -7,7 +7,7 @@ gcc-env:
       gpu: cuda
   unify: true
   specs:
-  - sirius@develop%gcc +apps +nlcglib +nvtx
+  - sirius @git.feat/roctracer=develop %gcc +apps +nlcglib +nvtx
   variants:
   - cuda_arch=90
   views:
