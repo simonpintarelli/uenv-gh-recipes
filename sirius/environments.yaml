@@ -7,7 +7,7 @@ gcc-env:
       gpu: cuda
   unify: true
   specs:
-  - sirius%gcc +nlcglib +nvtx
+  - sirius@develop%gcc +apps +nlcglib +nvtx
   variants:
   - cuda_arch=90
   views:
