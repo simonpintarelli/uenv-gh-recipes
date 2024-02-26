@@ -8,7 +8,8 @@ gcc-env:
   unify: true
   specs:
   - q-e-sirius@git.feat/md
-  - sirius @git.feat/roctracer=develop %gcc +apps +nlcglib +nvtx +cuda
+  - sirius @git.sirius-md=develop %gcc +apps +nlcglib +nvtx +cuda
+  - nlcglib @git.feat/distributed-wfc=develop %gcc +gpu_direct
   variants:
   - cuda_arch=90
   views:
