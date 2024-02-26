@@ -7,7 +7,7 @@ gcc-env:
       gpu: cuda
   unify: true
   specs:
-  - q-e-sirius@git.feat/md
+  - q-e-sirius@git.feat/md=develop-ristretto
   - sirius @git.sirius-md=develop %gcc +apps +nlcglib +nvtx +cuda
   - nlcglib @git.feat/distributed-wfc=develop %gcc +gpu_direct
   variants:
