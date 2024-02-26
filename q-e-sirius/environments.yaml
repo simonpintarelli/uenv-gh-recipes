@@ -1,0 +1,15 @@
+gcc-env:
+  compiler:
+      - toolchain: gcc
+        spec: gcc@12
+  mpi:
+      spec: cray-mpich@8.1.28
+      gpu: cuda
+  unify: true
+  specs:
+  - q-e-sirius@git.feat/md
+  - sirius @git.feat/roctracer=develop %gcc +apps +nlcglib +nvtx +cuda
+  variants:
+  - cuda_arch=90
+  views:
+    default:
