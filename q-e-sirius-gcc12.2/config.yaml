@@ -1,0 +1,6 @@
+name: osu-benchmarks
+store: /user-environment
+description: osu benchmarks with cuda
+spack:
+  repo: https://github.com/spack/spack.git
+  commit: v0.21.1
