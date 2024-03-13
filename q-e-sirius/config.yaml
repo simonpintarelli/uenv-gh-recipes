@@ -1,6 +1,6 @@
-name: osu-benchmarks
+name: q-e-sirius sirius-md
 store: /user-environment
-description: osu benchmarks with cuda
+description: sirius
 spack:
   repo: https://github.com/spack/spack.git
   commit: v0.21.1

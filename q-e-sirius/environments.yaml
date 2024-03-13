@@ -10,6 +10,7 @@ gcc-env:
   - q-e-sirius@git.feat/md=develop-ristretto~openmp
   - sirius @git.sirius-md=develop %gcc +apps +nlcglib +nvtx +cuda
   - nlcglib @git.feat/distributed-wfc=develop %gcc +gpu_direct
+  - spfft+gpu_direct
   variants:
   - cuda_arch=90
   views:

@@ -1,6 +1,6 @@
-name: osu-benchmarks
+name: osu-benchmarks nvhpc
 store: /user-environment
-description: osu benchmarks with cuda
+description: osu benchmarks nvhcp@24.1
 spack:
   repo: https://github.com/spack/spack.git
   commit: v0.21.0
