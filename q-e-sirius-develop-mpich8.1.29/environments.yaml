@@ -1,0 +1,17 @@
+gcc-env:
+  compiler:
+      - toolchain: gcc
+        spec: gcc@12
+  mpi:
+      spec: cray-mpich@8.1.29
+      gpu: cuda
+  unify: true
+  specs:
+  - q-e-sirius@git.ristretto=develop-ristretto
+  - sirius@git.develop=develop %gcc +apps +cuda +nvtx
+  - openblas threads=openmp
+  - spfft+gpu_direct
+  variants:
+  - cuda_arch=90
+  views:
+    default:
