@@ -11,6 +11,7 @@ gcc-env:
   - sirius@git.develop=develop %gcc +apps +cuda +nvtx
   - openblas threads=openmp
   - spfft+gpu_direct
+  - osu-micro-benchmarks +cuda
   variants:
   - cuda_arch=90
   views:
