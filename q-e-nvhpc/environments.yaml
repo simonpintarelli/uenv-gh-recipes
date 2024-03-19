@@ -10,9 +10,9 @@ nvhpc-env:
   unify: true
   specs:
   - cmake%gcc
-  - fftw%gcc
+  - fftw~mpi%gcc
   - openblas%gcc
-  - libxc%nvhpc~cuda
+  - libxc%gcc~cuda
   - quantum-espresso@7.3.1 %nvhpc +libxc +cuda ~scalapack ^openblas threads=openmp ^libxc
   - patchelf%gcc
   variants:

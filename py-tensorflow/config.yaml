@@ -1,0 +1,7 @@
+name: tensorflow
+store: /user-environment
+description: tensorflow
+spack:
+  repo: https://github.com/spack/spack.git
+  # commit where gcc12 was fixed
+  commit: a7dd756b341f99d0a0fc52a2da1c19cc20f1eecb
